@@ -13,6 +13,8 @@
 		0126CD6F1A0DB64C00A1D409 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0126CD6E1A0DB64C00A1D409 /* Images.xcassets */; };
 		0126CD721A0DB64C00A1D409 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0126CD701A0DB64C00A1D409 /* LaunchScreen.xib */; };
 		0126CD7E1A0DB64C00A1D409 /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0126CD7D1A0DB64C00A1D409 /* PostcardTests.swift */; };
+		0170A8091A0E4E8F009AB1CB /* [0612201107414229213].jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0170A8071A0E4E8F009AB1CB /* [0612201107414229213].jpg */; };
+		0170A80A1A0E4E8F009AB1CB /* [2510201107510317303].jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0170A8081A0E4E8F009AB1CB /* [2510201107510317303].jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		0126CD771A0DB64C00A1D409 /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0126CD7C1A0DB64C00A1D409 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0126CD7D1A0DB64C00A1D409 /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		0170A8071A0E4E8F009AB1CB /* [0612201107414229213].jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "[0612201107414229213].jpg"; sourceTree = "<group>"; };
+		0170A8081A0E4E8F009AB1CB /* [2510201107510317303].jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "[2510201107510317303].jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		0126CD651A0DB64C00A1D409 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0170A8071A0E4E8F009AB1CB /* [0612201107414229213].jpg */,
+				0170A8081A0E4E8F009AB1CB /* [2510201107510317303].jpg */,
 				0126CD661A0DB64C00A1D409 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,6 +198,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0170A80A1A0E4E8F009AB1CB /* [2510201107510317303].jpg in Resources */,
+				0170A8091A0E4E8F009AB1CB /* [0612201107414229213].jpg in Resources */,
 				0126CD6D1A0DB64C00A1D409 /* Main.storyboard in Resources */,
 				0126CD721A0DB64C00A1D409 /* LaunchScreen.xib in Resources */,
 				0126CD6F1A0DB64C00A1D409 /* Images.xcassets in Resources */,
@@ -407,6 +415,7 @@
 				0126CD831A0DB64C00A1D409 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0126CD841A0DB64C00A1D409 /* Build configuration list for PBXNativeTarget "PostcardTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +424,7 @@
 				0126CD861A0DB64C00A1D409 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
